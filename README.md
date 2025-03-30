@@ -18,7 +18,6 @@ La aplicación está estructurada con:
 - **Context API**: Para gestionar la autenticación y estado global
 - **Componentes reutilizables**: Como la lista virtualizada
 - **Servicios**: Encapsulación de lógica de API
-- **Hooks personalizados**: Para funcionalidades específicas
 
 ## Persistencia de Token
 
@@ -44,7 +43,6 @@ npm run dev
 /src
   /components     # Componentes reutilizables 
   /context        # Contextos React
-  /hooks          # Hooks personalizados
   /pages          # Páginas principales 
   /services       # Servicios y configuración de API
 ```
@@ -57,4 +55,3 @@ npm run dev
 - React Router
 - Axios
 - TailwindCSS
-- React Query
